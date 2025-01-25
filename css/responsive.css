@@ -1,0 +1,53 @@
+@media screen and (max-width:767px) {
+    .right-nav {
+        display: none !important;
+    }
+    .top-header .logo img {
+        width: 120px;
+    }
+    .mobie-menu {
+        display: block;
+    }
+    .mobie-menu i {
+        display: block;
+        font-size: 20px;
+    }
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bt-header {
+        flex-wrap: wrap;
+    }
+    .bt-header .left-side {
+        padding-top: 100px;
+    }
+    .bt-header .title h1 {
+        font-size: 35px;
+        line-height: 53.75px;
+     
+    }
+    .bt-header .left-btns .btn1 {
+        
+        margin-right: 13px;
+    }
+
+    .bt-header .right-side img {
+        width: 330px;
+    }
+    .blog-section .blogs {
+      margin-top: 35px;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .blog-section .blog-title h4 {
+        font-size: 36px;
+        
+    }
+    .blog-section .blogs .box .right .blog-title {
+        font-size: 20px;
+        
+    }
+
+}
