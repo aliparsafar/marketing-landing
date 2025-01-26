@@ -1,0 +1,61 @@
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    align-items: center;
+   
+}
+
+.main-header {
+    background-image: url(../images/Rectangle\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-header .menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.top-header .right-nav {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.top-header .menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #011627;
+     
+}
+
+
+.top-header .menu ul .active:hover {
+    border-bottom: 2px solid #E71D36;
+    
+}
+
+.top-header .right-nav .contact-btn button {
+    padding: 15px 44px;
+    background-color: #E71D36;
+    border: none;
+    border-radius: 48px;
+}
+
+.top-header .right-nav .contact-btn button a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-decoration: none;
+
+
+}
+
+.bt-header {
+    display: flex;
+}
