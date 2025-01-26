@@ -136,10 +136,12 @@ font-weight: 500;
 line-height: 24.2px;
 color: #E71D36;
 
-
-
 }
 
 .mobie-menu {
     display: none;
+}
+
+.blog-section {
+    margin: 100px 0;
 }
