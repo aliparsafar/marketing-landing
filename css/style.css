@@ -145,3 +145,117 @@ color: #E71D36;
 .blog-section {
     margin: 100px 0;
 }
+
+.blog-section .blog-title h4 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54.46px;
+    text-align: center;
+}
+
+.blog-section .blogs {
+   
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 12px;
+}
+
+.blog-section .blogs .box {
+    display: flex;
+    /* width: 559px; */
+    border-radius: 23px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.blog-section .blogs .box .right .date span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    color: #011627;
+}
+
+.blog-section .blogs .box .right .blog-title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.47px;
+    color: #011627;
+    margin-top: 14px;
+    margin-bottom: 25px;
+
+
+}
+
+.blog-section .blogs .box .right .desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #011627;
+
+}
+
+.blog-section .blogs .box .left img {
+margin-right: 24px;
+}
+
+.blog-section .blogs .box1 .left img {
+    border-bottom: 5px solid #E71D36;
+    border-radius: 12px;
+    }
+
+    .blog-section .blogs .box2 .left img {
+        border-bottom: 5px solid #2EC4B6;
+        border-radius: 12px;
+        }
+    
+
+.blog-section .blogs .box1 {
+
+    background-color: #FFF8F8;
+    box-shadow: 1px 0px 1px #E71D3645;
+    
+    
+}
+
+
+.blog-section .blogs .box2 {
+    background-color: #F8FFFE;
+    box-shadow: 1px 0px 1px #2EC4B680;  
+    
+}
+
+.blog-section .blogs .box .right button {
+    background: transparent;
+    border: none;
+    align-items: center;
+    display: flex;
+    gap: 13px;
+    margin-top: 24px;
+}
+
+.blog-section .blogs .box .right button a {
+ 
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+text-decoration: none;
+
+
+}
+
+
+.blog-section .blogs .box1 .right button a {
+    color: #E71D36;
+}
+
+.blog-section .blogs .box2 .right button a {
+    color: #2EC4B6;
+}
+
+.navigation {
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
