@@ -120,6 +120,26 @@ margin-bottom: 70px;
     font-weight: 500;
     line-height: 24.2px;
     
+}
+
+.bt-header .left-btns .btn2 {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.bt-header .left-btns .btn2 a {
+font-size: 20px;
+font-weight: 500;
+line-height: 24.2px;
+color: #E71D36;
 
 
+
+}
+
+.mobie-menu {
+    display: none;
 }

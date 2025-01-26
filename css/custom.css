@@ -2,11 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "inter";
+
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-Regular.otf);
 }
 
 .container {
     max-width: 1200px;
-   
     padding: 0 20px;
     margin: 0 auto;
 
